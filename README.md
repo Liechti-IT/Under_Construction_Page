@@ -11,7 +11,8 @@ This is a Under Construction Site with easy Changeable Language.
 Copy the Repository to your php suportet Webhosting.
 
 Edit the index.php Variables to your Language: (Default is German)
-```
+
+```php
 <?php
 
 //======================================================================
@@ -24,7 +25,7 @@ $mail = "&#109;&#97;&#105;&#108;&#116;&#111;&#58;%79%6F%75%72%2D%65%6D%61%69%6C%
 $contact = "Kontakt"; /* Text of the Button */
 
 ?>
-```php
+```
 
 To set up the e-mail link correctly, it should be encoded.
 This can be done with my tool:

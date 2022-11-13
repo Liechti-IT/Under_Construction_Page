@@ -1,0 +1,118 @@
+
+/* ------ Import Font ------ */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+
+/* ------ Set Root for easy Responsive Fonts ------ */
+
+:root {
+    font-size: 100%;
+}
+
+/* ------ Body ------ */
+
+body {
+    background-color: #262626;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 7rem;
+    color: #2FCD6E;
+    font-weight: 700;
+}
+
+p {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.images-grid {
+    display: grid;
+    gap: 1rem;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 6rem;
+}
+
+.img-left {
+    padding-top: 5rem;
+}
+.img-center {
+    padding-top: 0rem;
+}
+.img-right {
+    padding-top: 8rem;
+}
+
+img {
+    width: 15rem;
+}
+
+button {
+    border-radius: 100vmax;
+    border: 0;
+    padding: 0.5em 3em;
+    color: white;
+    background-color: #2FCD6E;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 2rem;
+    }
+
+button p {
+    margin: 0;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+    .container {
+    --max-width: 1110px;
+    --padding: 1rem;
+    width: min(var(--max-width), 100% - (var(--padding)*2));
+    margin-inline: auto;
+    text-align: center;
+    min-height: 97vh;
+    position: relative;
+    }
+
+#content-wrap {
+    padding-bottom: 2.5rem;
+    }
+
+footer p {
+    font-size: 1rem;
+    margin: 0;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+}
+
+/* ------ Mobile Media Querys ------ */
+
+@media (max-width:50em) {
+
+    :root {
+    font-size: 50%;
+    }
+}
+
+@media (max-width:400px) {
+    img {
+        width: 10rem;
+    }
+
+    :root {
+        font-size: 40%;
+    }
+}

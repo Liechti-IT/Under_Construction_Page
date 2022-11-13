@@ -28,7 +28,9 @@ $contact = "Kontakt"; /* Text of the Button */
 ```
 
 To set up the e-mail link correctly, it should be encoded.
-This can be done with my tool:
+This can be done with my tool: 
+[Encode - Tool](https://github.com/Liechti-IT/encoding-mail_link "Encode - Tool")
+
 
 This should prevent Spam E-Mail.
 
